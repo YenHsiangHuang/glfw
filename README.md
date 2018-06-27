@@ -1,4 +1,4 @@
-# Installation Quick Guild Using CMAKE (for Mac)
+# Quick Installation Guild Using CMAKE (for Mac)
 First, clone this project or download source code from [here](http://www.glfw.org/download.html).
 
 ## In-source build
