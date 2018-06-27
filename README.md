@@ -1,3 +1,25 @@
+# Installation Quick Guild Using CMAKE (for Mac)
+First, clone this project or download source code from [here](http://www.glfw.org/download.html).
+
+## In-source build
+```
+cd GLFW_root
+md glfw_build
+cd glfw_build
+cmake ..
+make
+sudo make install
+```
+
+## Out-of-source build
+```
+md glfw_build
+cd glfw_build
+cmake ../GLFW_root
+make
+sudo make install
+```
+
 # GLFW
 
 [![Build status](https://travis-ci.org/glfw/glfw.svg?branch=master)](https://travis-ci.org/glfw/glfw)
